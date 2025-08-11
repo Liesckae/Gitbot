@@ -28,6 +28,6 @@ class Cmmand:
     
     def _get_status(self):
         return self._run_git(["status","--short"])
-    
-    def execute(self):
+    #我是沙币
+    def execute(self)：
         return self._run_git(["log", "-1", "--pretty=format:%h %s (%cr) by %an"])
